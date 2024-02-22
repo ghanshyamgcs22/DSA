@@ -6,6 +6,7 @@ public:
     int low = 1, high = position[position.size() - 1] - position[0];
     int result ;
 
+        
     while (low <= high) {
         int mid = low + (high - low) / 2;
         int placed = 1;
